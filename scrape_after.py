@@ -22,13 +22,13 @@ logger.addHandler(handler)
 getbase_kelime = TrnlpWord()
 duzeltici = SpellingCorrector()
 
-durdur_kelimeler = ["ama", "ancak", "arada", "ayrıca", "bana", "bazı", "belki", "ben", "beni", "benim", "beri", "bile", "bir", "birçok",
+durdur_kelimeler = [  "bana", "bazı", "belki", "ben", "beni", "benim", "beri", "bile", "bir", "birçok",
     "biri", "birkaç", "biz", "bize", "bizi", "bizim","böyle", "böylece", "bu","buna", "bundan", "bunlar", "bunları", "bunların", 
     "bunu", "bunun", "burada", "çok", "çünkü", "da", "daha", "de","değildir","diğer", "diye", "dolayı", "dolayısıyla", "edecek", 
-    "eden", "ederek", "edilecek", "ediliyor", "edilmesi", "ediyor", "eğer", "etmesi", "etti", "ettiği", "ettiğini", "gibi","göre", 
+    "eden", "ederek", "edilmesi", "arada", "ama", "ancak","ayrıca","ediyor", "eğer", "etmesi", "etti", "ettiği", "ettiğini", "gibi","göre", 
     "halen", "hangi", "hatta", "hem", "henüz", "her", "herhangi", "herkesin", "hiç", "hiçbir", "için", "ile", "ilgili", "ise", "işte",
     "itibaren", "itibariyle", "kadar", "karşın", "kendi", "kendilerine", "kendini", "kendisi", "kendisine", "kendisini", "ki",
-    "kim", "kimse", "mı", "mi", "mu", "mü", "nasıl", "ne", "neden", "nedenle", "o", "olan", "olarak", "oldu", "olduğu", 
+    "kim", "kimse", "mı", "mi",  "edilecek", "ediliyor","mu", "mü", "nasıl", "ne", "neden", "nedenle", "o", "olan", "olarak", "oldu", "olduğu", 
     "olduğunu", "olduklarını", "olmadı", "olmadığını", "olmak", "olması", "olmayan", "olmaz", "olsa", "olsun", "olup", "olur",
     "olursa", "oluyor", "ona", "onlar", "onları", "onların", "onu", "onun", "öyle", "oysa", "pek", "rağmen", "sadece", "siz",
     "şey", "şöyle", "şu", "şunları", "tarafından", "üzere", "var", "vardı", "ve", "veya", "ya", "yani", "yapacak", "yapılan",
